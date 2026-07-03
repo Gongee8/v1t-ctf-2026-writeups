@@ -18,8 +18,7 @@
 
 ## Objective
 
-Retrieve the hidden flag using the `curl` command-line tool.<img width="1260" height="735" alt="image" src="https://github.com/user-attachments/assets/5d705858-bcdb-4acf-b8eb-69df749324f7" />
-
+Retrieve the hidden flag using the `curl` command-line tool.
 
 ---
 
@@ -46,55 +45,16 @@ curl v1t.site/flag
 
 ---
 
-### Step 2 - Download the Flag File
+### Step 2 - Curl the Flag File
 
-Following the available commands, I requested the `/flag` endpoint and saved its output to a local file.
-
-```bash
-curl https://v1t.site/flag -o flag
-```
-
-The `-o` option tells `curl` to save the server response into a file instead of displaying it in the terminal.
-
----
-
-### Step 3 - Inspect the Downloaded File
-
-Verified that the file had been downloaded successfully.
+Following the available commands, I requested the `/flag` endpoint.
 
 ```bash
-ls
+curl https://v1t.site/flag
 ```
+and see the flag
 
-Output:
-
-```
-flag
-```
-
----
-
-### Step 4 - Display the File
-
-Using the correct filename:
-
-```bash
-cat flag
-```
-
-displayed a large block-art image composed of Unicode characters.
-
----
-
-### Step 5 - Render the Unicode Art
-
-At first, the flag was difficult to read because the VirtualBox window was too small, causing the terminal to compress the Unicode block characters.
-
-After maximizing the VirtualBox window (or enlarging the terminal), the Unicode art rendered correctly, revealing the hidden flag.
-
-```
-V1T{ducky_quacky}
-```
+![flag](.../images/curl=the=duck.png)
 
 ---
 
@@ -107,9 +67,3 @@ V1T{ducky_quacky}
 ---
 
 
-
-## Lessons Learned
-
-- The `-o` option in `curl` is useful for saving server responses.
-- Not every flag is returned as plain text; some are rendered as Unicode or ANSI art.
-- Terminal size and font rendering can affect how Unicode graphics appear.
