@@ -18,7 +18,8 @@
 
 ## Objective
 
-Retrieve the hidden flag using the `curl` command-line tool.
+Retrieve the hidden flag using the `curl` command-line tool.<img width="1260" height="735" alt="image" src="https://github.com/user-attachments/assets/5d705858-bcdb-4acf-b8eb-69df749324f7" />
+
 
 ---
 
