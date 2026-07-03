@@ -45,9 +45,8 @@ to reveal the text slowly, making it appear as if someone is typing it. Viewing 
 
 ## Lessons Learned
 
+## Lessons Learned
+
 - Always inspect the page source during web challenges.
 - CSS animations should not be considered a security mechanism.
 - Hidden HTML content can often be discovered without executing JavaScript.
-- Always inspect the page source during web challenges.
-- CSS animations may hide or delay the display of sensitive information.
-- Hidden content in HTML can often be discovered without interacting with JavaScript.
