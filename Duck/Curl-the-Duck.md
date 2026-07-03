@@ -54,7 +54,7 @@ curl https://v1t.site/flag
 ```
 and see the flag
 
-![flag](images/curl-the-duck.png)
+![flag](../images/curl-the-duck.png)
 
 ---
 
